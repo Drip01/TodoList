@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<BorderPane fx:controller="com.drip.todolist.Controller"
+            xmlns:fx="http://javafx.com/fxml" >
+    <left>
+        <ListView fx:id="todoListView" onMouseClicked="#handClickListView">
+
+        </ListView>
+    </left>
+    <center>
+        <TextArea fx:id="itemDetailsTextArea"/>
+    </center>
+</BorderPane>
+
+
+

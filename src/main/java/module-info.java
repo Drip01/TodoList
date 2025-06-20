@@ -1,7 +1,7 @@
-module com.example.todolist {
+module com.drip.todolist {
 	requires javafx.controls;
 	requires javafx.fxml;
 
-	opens com.example.todolist to javafx.fxml;
-	exports com.example.todolist;
+	opens com.drip.todolist to javafx.fxml;
+	exports com.drip.todolist;
 }

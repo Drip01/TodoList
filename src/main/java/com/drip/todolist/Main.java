@@ -1,4 +1,4 @@
-package com.example.todolist;
+package com.drip.todolist;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
